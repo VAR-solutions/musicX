@@ -9,7 +9,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 class Navbar extends Component {
   render() {
     return (
-      <AppBar position="static">
+      <AppBar >
         <Toolbar>
           <IconButton
             edge="start"
@@ -19,7 +19,7 @@ class Navbar extends Component {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
-            MusicX
+            MusicX - A music App
           </Typography>
         </Toolbar>
       </AppBar>
